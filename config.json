@@ -1,0 +1,43 @@
+{
+    "model" : {
+        "min_input_size":       128,
+        "max_input_size":       480,
+        "anchors":              [24,37, 41,71, 65,138, 88,83, 110,152, 137,238, 143,102, 179,166, 212,251],
+        "labels":               ["fire"]
+    },
+
+    "train": {
+        "train_image_folder":   "/home/g424400878/keras-yolo3/fire-data/train/images/",
+        "train_annot_folder":   "/home/g424400878/keras-yolo3/fire-data/train/annotations/",
+        "cache_name":           "fire_train2.pkl",
+
+	"pretrained_weights":   "fire3.h5",
+
+
+        "train_times":          1,
+        "batch_size":           8,
+        "learning_rate":        1e-5,
+        "nb_epochs":            10,
+        "warmup_epochs":        3,
+        "ignore_thresh":        0.5,
+        "gpus":                 "0",
+
+        "grid_scales":          [1,1,1],
+        "obj_scale":            5,
+        "noobj_scale":          1,
+        "xywh_scale":           1,
+        "class_scale":          1,
+
+        "tensorboard_dir":      "logs",
+        "saved_weights_name":   "fire4.h5",
+        "debug":                true
+    },
+
+    "valid": {
+        "valid_image_folder":   "/home/g424400878/keras-yolo3/fire-data/validation/images/",
+        "valid_annot_folder":   "/home/g424400878/keras-yolo3/fire-data/validation/annotations/",
+        "cache_name":           "fire_valid2.pkl",
+
+        "valid_times":          1
+    }
+}

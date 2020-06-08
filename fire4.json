@@ -1,0 +1,43 @@
+{
+    "model" : {
+        "min_input_size":       160,
+        "max_input_size":       320,
+        "anchors":             [22,30, 30,57, 53,70, 63,128, 101,145, 106,81, 133,207, 150,124, 202,234],
+        "labels":               ["fire"]
+    },
+
+    "train": {
+        "train_image_folder":   "/home/g424400878/k-yolov3-gcp/fire-data/train/images/",
+        "train_annot_folder":   "/home/g424400878/k-yolov3-gcp/fire-data/train/annotations/",
+        "cache_name":           "fire2.pkl",
+
+	"pretrained_weights":   "",
+
+
+        "train_times":          3,
+        "batch_size":           4,
+        "learning_rate":        1e-5,
+        "nb_epochs":            20,
+        "warmup_epochs":        3,
+        "ignore_thresh":        0.5,
+        "gpus":                 "0",
+
+        "grid_scales":          [1,1,1],
+        "obj_scale":            5,
+        "noobj_scale":          1,
+        "xywh_scale":           1,
+        "class_scale":          1,
+
+        "tensorboard_dir":      "logs",
+        "saved_weights_name":   "fire4.h5",
+        "debug":                true
+    },
+
+    "valid": {
+        "valid_image_folder":   "/home/g424400878/k-yolov3-gcp/fire-data/validation/images/",
+        "valid_annot_folder":   "/home/g424400878/k-yolov3-gcp/fire-data/validation/annotations/",
+        "cache_name":           "fire.pkl",
+
+        "valid_times":          1
+    }
+}

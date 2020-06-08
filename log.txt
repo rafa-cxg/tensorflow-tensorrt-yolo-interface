@@ -1,0 +1,25 @@
+
+==========================
+network: tftrt_int8_fire424.pb,	 batchsize 1, steps 100
+  fps 	median: 69.9, 	mean: 62.8, 	uncertainty: 2.1, 	jitter: 19.6
+  latency 	median: 0.01430, 	mean: 0.01860, 	99th_p: 0.03185, 	99th_uncertainty: 0.02267
+
+==========================
+network: tftrt_int8_fire424.pb,	 batchsize 1, steps 100
+  fps 	median: 80.2, 	mean: 79.9, 	uncertainty: 0.5, 	jitter: 1.7
+  latency 	median: 0.01247, 	mean: 0.01260, 	99th_p: 0.01464, 	99th_uncertainty: 0.00705
+
+==========================
+network: tftrt_int8_fire424.pb,	 batchsize 1, steps 100
+  fps 	median: 82.6, 	mean: 81.9, 	uncertainty: 0.5, 	jitter: 2.2
+  latency 	median: 0.01210, 	mean: 0.01228, 	99th_p: 0.01487, 	99th_uncertainty: 0.00617
+
+==========================
+network: tftrt_int8_fire424.pb,	 batchsize 1, steps 100
+  fps 	median: 77.9, 	mean: 77.1, 	uncertainty: 0.6, 	jitter: 2.6
+  latency 	median: 0.01284, 	mean: 0.01310, 	99th_p: 0.01550, 	99th_uncertainty: 0.00860
+
+==========================
+network: tftrt_int8_fire424.pb,	 batchsize 8, steps 100
+  fps 	median: 130.5, 	mean: 129.4, 	uncertainty: 0.5, 	jitter: 1.5
+  latency 	median: 0.06130, 	mean: 0.06192, 	99th_p: 0.06724, 	99th_uncertainty: 0.01030

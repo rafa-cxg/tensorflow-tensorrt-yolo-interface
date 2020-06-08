@@ -1,0 +1,15 @@
+--2020-03-01 06:27:45--  https://doc-0s-as-docs.googleusercontent.com/docs/securesc/0ognk261o7eili7il6nqihc0md2lrblg/4rp4m5a241s6a0nj1lrp3if39gsldnbf/1583043975000/07849783016781834179/05542653822496012033Z/1o_PM_zB6FxJRdLpEx8lEAhL29IMe1KzI?e=download
+Resolving doc-0s-as-docs.googleusercontent.com (doc-0s-as-docs.googleusercontent.com)... 74.125.142.132, 2607:f8b0:400e:c09::84
+Connecting to doc-0s-as-docs.googleusercontent.com (doc-0s-as-docs.googleusercontent.com)|74.125.142.132|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://docs.google.com/nonceSigner?nonce=o099tld2t769k&continue=https://doc-0s-as-docs.googleusercontent.com/docs/securesc/0ognk261o7eili7il6nqihc0md2lrblg/4rp4m5a241s6a0nj1lrp3if39gsldnbf/1583043975000/07849783016781834179/05542653822496012033Z/1o_PM_zB6FxJRdLpEx8lEAhL29IMe1KzI?e%3Ddownload&hash=bs10klf2hpenkn7fkd7k8v4imlevoao5 [following]
+--2020-03-01 06:27:45--  https://docs.google.com/nonceSigner?nonce=o099tld2t769k&continue=https://doc-0s-as-docs.googleusercontent.com/docs/securesc/0ognk261o7eili7il6nqihc0md2lrblg/4rp4m5a241s6a0nj1lrp3if39gsldnbf/1583043975000/07849783016781834179/05542653822496012033Z/1o_PM_zB6FxJRdLpEx8lEAhL29IMe1KzI?e%3Ddownload&hash=bs10klf2hpenkn7fkd7k8v4imlevoao5
+Resolving docs.google.com (docs.google.com)... 74.125.142.113, 74.125.142.101, 74.125.142.139, ...
+Connecting to docs.google.com (docs.google.com)|74.125.142.113|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://doc-0s-as-docs.googleusercontent.com/docs/securesc/0ognk261o7eili7il6nqihc0md2lrblg/4rp4m5a241s6a0nj1lrp3if39gsldnbf/1583043975000/07849783016781834179/05542653822496012033Z/1o_PM_zB6FxJRdLpEx8lEAhL29IMe1KzI?e=download&nonce=o099tld2t769k&user=*&hash=o66nf27pl6fdpem47masoqtil2a2kso7 [following]
+--2020-03-01 06:27:45--  https://doc-0s-as-docs.googleusercontent.com/docs/securesc/0ognk261o7eili7il6nqihc0md2lrblg/4rp4m5a241s6a0nj1lrp3if39gsldnbf/1583043975000/07849783016781834179/05542653822496012033Z/1o_PM_zB6FxJRdLpEx8lEAhL29IMe1KzI?e=download&nonce=o099tld2t769k&user=*&hash=o66nf27pl6fdpem47masoqtil2a2kso7
+Connecting to doc-0s-as-docs.googleusercontent.com (doc-0s-as-docs.googleusercontent.com)|74.125.142.132|:443... connected.
+HTTP request sent, awaiting response... 403 Forbidden
+2020-03-01 06:27:45 ERROR 403: Forbidden.
+
